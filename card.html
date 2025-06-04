@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Business Card - S. M. Apurbo</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="card-page-body">
+    <!-- Space Background -->
+    <div class="space-background">
+        <!-- Stars -->
+        <div class="star small" style="top: 8%; left: 12%; animation-delay: 0s;"></div>
+        <div class="star medium" style="top: 18%; left: 78%; animation-delay: 1s;"></div>
+        <div class="star large" style="top: 28%; left: 22%; animation-delay: 2s;"></div>
+        <div class="star small" style="top: 38%; left: 68%; animation-delay: 0.5s;"></div>
+        <div class="star medium" style="top: 48%; left: 8%; animation-delay: 1.5s;"></div>
+        <div class="star small" style="top: 58%; left: 88%; animation-delay: 2.5s;"></div>
+        <div class="star large" style="top: 68%; left: 38%; animation-delay: 3s;"></div>
+        <div class="star medium" style="top: 78%; left: 58%; animation-delay: 0.8s;"></div>
+        <div class="star small" style="top: 88%; left: 18%; animation-delay: 1.8s;"></div>
+        <div class="star small" style="top: 3%; left: 48%; animation-delay: 2.2s;"></div>
+        <div class="star medium" style="top: 13%; left: 33%; animation-delay: 0.3s;"></div>
+        <div class="star small" style="top: 23%; left: 83%; animation-delay: 1.3s;"></div>
+        <div class="star large" style="top: 33%; left: 3%; animation-delay: 2.8s;"></div>
+        <div class="star small" style="top: 43%; left: 93%; animation-delay: 0.7s;"></div>
+        <div class="star medium" style="top: 53%; left: 43%; animation-delay: 1.7s;"></div>
+        <div class="star small" style="top: 63%; left: 73%; animation-delay: 2.3s;"></div>
+        <div class="star large" style="top: 73%; left: 13%; animation-delay: 0.9s;"></div>
+        <div class="star small" style="top: 83%; left: 53%; animation-delay: 1.9s;"></div>
+        <div class="star medium" style="top: 93%; left: 28%; animation-delay: 2.7s;"></div>
+        <div class="star small" style="top: 10%; left: 63%; animation-delay: 0.4s;"></div>
+        <div class="star medium" style="top: 35%; left: 85%; animation-delay: 1.1s;"></div>
+        <div class="star small" style="top: 55%; left: 25%; animation-delay: 2.1s;"></div>
+        <div class="star large" style="top: 75%; left: 65%; animation-delay: 0.6s;"></div>
+        <div class="star small" style="top: 95%; left: 45%; animation-delay: 1.6s;"></div>
+        <div class="star medium" style="top: 15%; left: 5%; animation-delay: 2.6s;"></div>
+
+        <!-- Planets -->
+        <div class="planet earth" style="top: 12%; left: 3%; animation-delay: 0s;"></div>
+        <div class="planet mars" style="top: 55%; left: 82%; animation-delay: 5s;"></div>
+        <div class="planet jupiter" style="top: 75%; left: 8%; animation-delay: 10s;"></div>
+
+        <!-- Nebula Clouds -->
+        <div class="nebula purple" style="top: 18%; left: 58%; width: 180px; height: 180px; animation-delay: 0s;"></div>
+        <div class="nebula blue" style="top: 65%; left: 18%; width: 140px; height: 140px; animation-delay: 8s;"></div>
+        <div class="nebula pink" style="top: 38%; left: 78%; width: 160px; height: 160px; animation-delay: 15s;"></div>
+
+        <!-- Comets (Reduced) -->
+        <div class="comet falling" style="top: 18%; left: -50px; animation-delay: 1s;"></div>
+        <div class="comet falling" style="top: 58%; left: -50px; animation-delay: 8s;"></div>
+
+        <!-- Shooting Stars -->
+        <div class="shooting-star" style="top: 22%; left: -50px; animation-delay: 2s;"></div>
+        <div class="shooting-star" style="top: 62%; left: -50px; animation-delay: 5s;"></div>
+        <div class="shooting-star" style="top: 82%; left: -50px; animation-delay: 8s;"></div>
+        <div class="shooting-star" style="top: 42%; left: -50px; animation-delay: 11s;"></div>
+
+        <!-- Moving Planets -->
+        <div class="moving-planet small earth" style="top: 25%; left: -60px; animation-delay: 2s;"></div>
+        <div class="moving-planet medium mars" style="top: 65%; right: -60px; animation-delay: 7s;"></div>
+        <div class="moving-planet large jupiter" style="top: 45%; left: -80px; animation-delay: 12s;"></div>
+        <div class="moving-planet small earth" style="top: 85%; right: -50px; animation-delay: 4s;"></div>
+    </div>
+
+    <!-- Dynamic Coming Towards Screen Elements -->
+    <div class="dynamic-space-element dynamic-star" style="top: 22%; left: 38%; animation-delay: 0.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 68%; left: 78%; animation-delay: 2.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 18%; left: 88%; animation-delay: 4.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 82%; left: 18%; animation-delay: 6.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 48%; left: 58%; animation-delay: 1.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 38%; left: 12%; animation-delay: 3.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 72%; left: 92%; animation-delay: 5.5s;"></div>
+    <div class="dynamic-space-element dynamic-star" style="top: 8%; left: 52%; animation-delay: 7.5s;"></div>
+
+    <div class="dynamic-space-element dynamic-planet small" style="top: 28%; left: 72%; animation-delay: 1.5s;"></div>
+    <div class="dynamic-space-element dynamic-planet medium" style="top: 62%; left: 32%; animation-delay: 4.5s;"></div>
+    <div class="dynamic-space-element dynamic-planet large" style="top: 88%; left: 82%; animation-delay: 7.5s;"></div>
+    <div class="dynamic-space-element dynamic-planet small" style="top: 42%; left: 8%; animation-delay: 10.5s;"></div>
+    <div class="dynamic-space-element dynamic-planet medium" style="top: 78%; left: 48%; animation-delay: 2.5s;"></div>
+
+    <div class="dynamic-space-element dynamic-comet" style="top: 32%; left: 28%; animation-delay: 3.5s;"></div>
+    <div class="dynamic-space-element dynamic-comet" style="top: 58%; left: 68%; animation-delay: 6.5s;"></div>
+    <div class="dynamic-space-element dynamic-comet" style="top: 92%; left: 38%; animation-delay: 9.5s;"></div>
+    <div class="dynamic-space-element dynamic-comet" style="top: 12%; left: 48%; animation-delay: 2s;"></div>
+
+    <!-- Back Button -->
+    <div class="back-button-container">
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i>
+            <span>Back to Portfolio</span>
+        </a>
+    </div>
+
+    <!-- Card Page Header -->
+    <div class="card-page-header">
+        <h1 class="card-page-title">Virtual Business Card</h1>
+        <p class="card-page-subtitle">Interactive 3D representation of my business card. Drag to rotate, click to flip.</p>
+        
+        <!-- Version Toggle -->
+        <div class="version-toggle">
+            <button class="version-btn active" data-version="3d">3D Version</button>
+            <button class="version-btn" data-version="simple">Simple Version</button>
+        </div>
+    </div>
+
+    <!-- Card Container -->
+    <div class="card-page-container">
+        <!-- 3D Card Section -->
+        <div id="card-3d" class="card-version active">
+            <div class="card-section-container">
+                <!-- Floating particles -->
+                <div class="particles-container">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                </div>
+                
+                <div class="business-card">
+                    <div class="card-front">
+                        <div class="shine-effect"></div>
+                        <div class="glow-ring"></div>
+                        
+                        <div class="card-header">
+                            <div class="logo-section">
+                                <div class="logo-circle">
+                                    <span class="initial">SA</span>
+                                </div>
+                            </div>
+                            <div class="name-title">
+                                <h3>S. M. Apurbo</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <div class="specialization">
+                                React • Node.js • Tailwind • TypeScript
+                            </div>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <div class="contact-quick">
+                                <div class="contact-item-quick">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>sm.apurbo@g.bracu.ac.bd</span>
+                                </div>
+                                <div class="contact-item-quick">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>linkedin.com/in/s-m-apurbo-673581339</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-back">
+                        <div class="quote-section">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <blockquote>
+                                "Code is like humor. When you have to explain it, it's bad."
+                            </blockquote>
+                            <cite>- Cory House</cite>
+                            
+                            <div class="social-section">
+                                <div class="social-icons-card">
+                                    <a href="https://github.com/ApurboSM" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://linkedin.com/in/s-m-apurbo-673581339" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://facebook.com/smapurbo007" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-instructions">
+                    <div class="instruction-item">
+                        <i class="fas fa-mouse-pointer"></i>
+                        <span>Move mouse to rotate</span>
+                    </div>
+                    <div class="instruction-item">
+                        <i class="fas fa-hand-pointer"></i>
+                        <span>Click to flip</span>
+                    </div>
+                    <div class="instruction-item">
+                        <i class="fas fa-scroll"></i>
+                        <span>Scroll to zoom</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Simple Card Section -->
+        <div id="card-simple" class="card-version">
+            <div class="simple-card-container">
+                <div class="simple-business-card">
+                    <div class="simple-header">
+                        <div class="simple-logo">SA</div>
+                        <div class="simple-info">
+                            <h2>S. M. Apurbo</h2>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                    
+                    <div class="simple-skills">
+                        React • Node.js • Tailwind • TypeScript
+                    </div>
+                    
+                    <div class="simple-contact">
+                        <div class="simple-contact-info">
+                            <div class="simple-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sm.apurbo@g.bracu.ac.bd</span>
+                        </div>
+                            <div class="simple-contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/ApurboSM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="simple-social-icons">
+                            <a href="https://github.com/ApurboSM" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/s-m-apurbo-673581339" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:sm.apurbo@g.bracu.ac.bd">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+8801311035024">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="card-script.js"></script>
+</body>
+</html> 
